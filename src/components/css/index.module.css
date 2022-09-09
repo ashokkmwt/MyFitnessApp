@@ -1,0 +1,214 @@
+
+.minHScreen{
+    min-height: 100vh;
+}
+
+.bgRed{
+    background-color: red;
+}
+
+.mxAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+}
+
+.itemCenter{
+    align-items: center;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifyBetween{
+    justify-content: space-between;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+
+.fontBold{
+    font-weight: bolder;
+}
+
+.my1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.textBlue{
+    color: #f8931f;
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 6px;
+    background-color: #f8931f;
+    cursor: pointer;
+}
+
+.overflowHidden{
+    /* overflow: hidden; */
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.highlited{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;   
+}
+
+.topleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.topleft img{
+    width: 284px;
+}
+
+.topright{
+    width: 50%;
+    height: 100%;
+}
+
+.topright img{
+    width: 100%;
+    height: 100%;
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: #d33c2b;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+    /* margin-bottom: 20px; */
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+
+.box{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    padding: 73px;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+
+}
+
+.section3 table tr{
+    border-bottom: 2px solid black;
+
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
