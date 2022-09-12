@@ -4,7 +4,7 @@ import Pricing from '../Pricing';
 import styles from '../css/index.module.css';
 import Plans from '../Plans';
 
-export default function () {
+export default function Main() {
     return (
         <div className={styles.minHScreen}>
             <Branding />
