@@ -4,7 +4,7 @@ import cx from 'classnames'
 
 export default function Header() {
   return (
-    <header>
+    <header> 
       <nav className={cx(styles.flex, styles.justifyBetween)}>
         <div className={cx(styles.logo, styles.fontBold, styles.flex, styles.itemCenter, styles.textBlue)}>MyFitness</div>
         <ul className={cx(styles.navbar, styles.flex, styles.itemCenter)}>
