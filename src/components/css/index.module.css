@@ -245,6 +245,10 @@ footer {
     .topright {
         width: 300px;
     }
+    
+    .textBlue{
+        margin-left: unset;
+    }
 
     .flex {
         flex-direction: column;
@@ -286,6 +290,10 @@ footer {
 
     .section2 {
         margin: unset;
+    }
+
+    ._wd1{
+        text-align: left;
     }
 
     .navbar li {

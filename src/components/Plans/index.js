@@ -31,7 +31,7 @@ export default function Plans() {
                             return (
                                 <tfoot key={index}>
                                     <tr>
-                                        <th className={styles._wd}>{tb.td1}</th>
+                                        <th className={cx(styles._wd, styles._wd1)}>{tb.td1}</th>
                                         <th className={styles._wd}>{tb.td2}</th>
                                         <th className={styles._wd}>{tb.td3}</th>
                                         <th className={styles._wd}>{tb.td4}</th>
