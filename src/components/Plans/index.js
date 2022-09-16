@@ -29,12 +29,14 @@ export default function Plans() {
                         </thead>
                         {tableBody.map((tb, index) => {
                             return (
-                                <tbody key={index}>
-                                    <th>{tb.td1}</th>
-                                    <td>{tb.td2}</td>
-                                    <td>{tb.td3}</td>
-                                    <td>{tb.td4}</td>
-                                </tbody>
+                                <tfoot key={index}>
+                                    <tr>
+                                        <th className={styles._wd}>{tb.td1}</th>
+                                        <th className={styles._wd}>{tb.td2}</th>
+                                        <th className={styles._wd}>{tb.td3}</th>
+                                        <th className={styles._wd}>{tb.td4}</th>
+                                    </tr>
+                                </tfoot>
                             )
                         })}
                     </table>

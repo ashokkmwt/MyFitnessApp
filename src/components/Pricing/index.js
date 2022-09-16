@@ -6,7 +6,7 @@ import Boxes from '../Boxes';
 export default function Pricing() {
     return (
         <section className={cx(styles.section2, styles.my2)}>
-            <h1 className={styles.textCenter}>Pricing</h1>
+            <h1 className={styles.textCenter2}>Pricing</h1>
             <p className={styles.my2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum nemo amet autem.
                 Repellat sed ab
                 odit natus est voluptatum dolorem molestiae enim pariatur facilis, tempore id ea corrupti voluptates

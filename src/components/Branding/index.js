@@ -19,8 +19,8 @@ export default function Branding() {
                         debitis laborum animi porro est a.</p>
                 </div>
                 <div className={styles.topright}>
-                    <img src={vectorImage} alt="vector" />
-                </div>
+                    <img width="100%" height="100%" src={vectorImage} alt="vector" />
+                </div> 
             </div>
         </section>
     )

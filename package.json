@@ -1,5 +1,7 @@
 {
   "name": "reactlandingpage",
+  "author": "Ashok Kumawat",
+  "email": "sendtoashokkumawat@gmail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
